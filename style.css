@@ -1,0 +1,77 @@
+@import "./theme.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.logo, .menu {
+    background-color: var(--logorengi);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+}
+.menu {
+    background-color: var(--menurengi);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    background-color: var(--bannerrengi);
+    padding: 4rem;
+    height: 20vh;
+
+}
+.Bolum1, .Bolum2, .Bolum3 {
+    background-color: var(--bolum123);
+    height: calc(100vh - 46vh );
+    border: 1px solid #808080;
+}
+
+.Bolum4, .Bolum5, .Bolum6 {
+    background-color: var(--bolum456);
+    padding: 1rem;
+    height: 7vh;
+    border: 1px solid #808080;
+}
+.footer {
+    background-color: var(--footer);
+    padding: 2rem;
+    height: 12vh;
+}
+
+
+.col-1 { width: 8.333333%; }
+
+.col-2 { width: 16.666667%; }
+
+.col-3 { width: 25%; }
+
+.col-4 { width: 33.333333%; }
+
+.col-5 { width: 41.666667%; }
+
+.col-6 { width: 50%; }
+
+.col-7 { width: 58.333333%; }
+
+.col-8 { width: 66.666667%; }
+
+.col-9 { width: 75%; }
+
+.col-10 { width: 83.333333%; }
+
+.col-11 { width: 91.666667%; }
+
+.col-12 { width: 100%; }
+
+[class*="col-"] {
+    float: left;
+    /* padding: 15px; */
+    /* border: 1px solid red; */
+  }
